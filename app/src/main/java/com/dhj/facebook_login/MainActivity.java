@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
        b.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
            @Override
            public void onSuccess(LoginResult loginResult) {
-
+               Toast.makeText(MainActivity.this, "Succesfull", Toast.LENGTH_SHORT).show();
            }
 
            @Override
